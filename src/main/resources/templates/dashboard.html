@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>ZonaRefri — Panel de Control</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f7f9;
+            color: #2c3e50;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #2980b9, #6dd5fa);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+        }
+
+        .header img {
+            width: 120px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+        }
+
+        .container {
+            padding: 2rem;
+        }
+
+        h2 {
+            border-left: 5px solid #2980b9;
+            padding-left: 10px;
+            margin-top: 2rem;
+        }
+
+        /* Tablas */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+            background: white;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 0.8rem;
+            text-align: left;
+        }
+
+        th {
+            background-color: #eaf2f8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Encabezado con tu captura de pantalla -->
+    <div class="header">
+        <!-- Imagen de robot meditando -->
+        <img src="/imagenes/robot_meditando.jpg" alt="Robot Meditando">
+
+        <h1>Zona Refri — Reparación de Electrodomésticos</h1>
+        <p><em> Gestión de clientes, productos y pedidos</em></p>
+    </div>
+
+    <div class="container">
+
+        <!-- Estadísticas -->
+        <h2>Estadísticas Generales</h2>
+        <p>Total de clientes: <strong th:text="${totalClientes}"></strong></p>
+        <p>Total de productos: <strong th:text="${totalProductos}"></strong></p>
+        <p>Total de pedidos: <strong th:text="${totalPedidos}"></strong></p>
+        <p>Pedidos pendientes: <strong th:text="${cantidadPendientes}"></strong></p>
+
+        <!-- Productos con bajo stock -->
+        <h2>Productos con bajo stock</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Stock</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="producto : ${productosBajoStock}">
+                    <td th:text="${producto.nombre}"></td>
+                    <td th:text="${producto.stock}"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Clientes registrados -->
+        <h2>Clientes registrados</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Email</th>
+                    <th>Teléfono</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="cliente : ${clientes}">
+                    <td th:text="${cliente.nombre}"></td>
+                    <td th:text="${cliente.email}"></td>
+                    <td th:text="${cliente.telefono}"></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+</body>
+</html>
