@@ -1,13 +1,15 @@
 
-package ar.edu.centro8.daw.trabajo_integrador_gilma_aguada.controller;
+package ar.edu.centro8.daw.zonarefri.controller;
 
-import ar.edu.centro8.daw.trabajo_integrador_gilma_aguada.exception.ResourceNotFoundException;
-import ar.edu.centro8.daw.trabajo_integrador_gilma_aguada.exception.BusinessException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+import ar.edu.centro8.daw.zonarefri.exception.BusinessException;
+import ar.edu.centro8.daw.zonarefri.exception.ResourceNotFoundException;
+
 import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.Map;

@@ -1,12 +1,13 @@
 
-package ar.edu.centro8.daw.trabajo_integrador_gilma_aguada.controller;
+package ar.edu.centro8.daw.zonarefri.controller;
 
-import ar.edu.centro8.daw.trabajo_integrador_gilma_aguada.model.Cliente;
-import ar.edu.centro8.daw.trabajo_integrador_gilma_aguada.model.Producto;
-import ar.edu.centro8.daw.trabajo_integrador_gilma_aguada.model.Pedido;
-import ar.edu.centro8.daw.trabajo_integrador_gilma_aguada.service.ClienteService;
-import ar.edu.centro8.daw.trabajo_integrador_gilma_aguada.service.ProductoService;
-import ar.edu.centro8.daw.trabajo_integrador_gilma_aguada.service.PedidoService;
+import ar.edu.centro8.daw.zonarefri.model.Cliente;
+import ar.edu.centro8.daw.zonarefri.model.Pedido;
+import ar.edu.centro8.daw.zonarefri.model.Producto;
+import ar.edu.centro8.daw.zonarefri.service.ClienteService;
+import ar.edu.centro8.daw.zonarefri.service.PedidoService;
+import ar.edu.centro8.daw.zonarefri.service.ProductoService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

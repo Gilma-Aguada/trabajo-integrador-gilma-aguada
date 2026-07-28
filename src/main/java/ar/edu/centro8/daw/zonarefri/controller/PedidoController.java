@@ -1,9 +1,9 @@
 // src/main/java/ar/edu/centro8/daw/trabajo_integrador_gilma_aguada/controller/PedidoController.java
-package ar.edu.centro8.daw.trabajo_integrador_gilma_aguada.controller;
+package ar.edu.centro8.daw.zonarefri.controller;
 
-import ar.edu.centro8.daw.trabajo_integrador_gilma_aguada.model.Pedido;
-import ar.edu.centro8.daw.trabajo_integrador_gilma_aguada.model.PedidoDetalle;
-import ar.edu.centro8.daw.trabajo_integrador_gilma_aguada.service.PedidoService;
+import ar.edu.centro8.daw.zonarefri.model.Pedido;
+import ar.edu.centro8.daw.zonarefri.model.PedidoDetalle;
+import ar.edu.centro8.daw.zonarefri.service.PedidoService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

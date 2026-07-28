@@ -1,10 +1,10 @@
-package ar.edu.centro8.daw.trabajo_integrador_gilma_aguada;
+package ar.edu.centro8.daw.zonarefri;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TrabajoIntegradorGilmaAguadaApplicationTests {
+class ZonaRefriApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,10 +1,11 @@
 
-package ar.edu.centro8.daw.trabajo_integrador_gilma_aguada.service;
+package ar.edu.centro8.daw.zonarefri.service;
 
-import ar.edu.centro8.daw.trabajo_integrador_gilma_aguada.model.Producto;
-import ar.edu.centro8.daw.trabajo_integrador_gilma_aguada.repositories.ProductoRepository;
-import ar.edu.centro8.daw.trabajo_integrador_gilma_aguada.exception.ResourceNotFoundException;
-import ar.edu.centro8.daw.trabajo_integrador_gilma_aguada.exception.BusinessException;
+import ar.edu.centro8.daw.zonarefri.exception.BusinessException;
+import ar.edu.centro8.daw.zonarefri.exception.ResourceNotFoundException;
+import ar.edu.centro8.daw.zonarefri.model.Producto;
+import ar.edu.centro8.daw.zonarefri.repositories.ProductoRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -1,12 +1,14 @@
 
-package ar.edu.centro8.daw.trabajo_integrador_gilma_aguada.repositories;
+package ar.edu.centro8.daw.zonarefri.repositories;
 
-import ar.edu.centro8.daw.trabajo_integrador_gilma_aguada.model.Pedido;
-import ar.edu.centro8.daw.trabajo_integrador_gilma_aguada.model.Cliente;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
+
+import ar.edu.centro8.daw.zonarefri.model.Cliente;
+import ar.edu.centro8.daw.zonarefri.model.Pedido;
+
 import java.time.LocalDateTime;
 import java.util.List;
 

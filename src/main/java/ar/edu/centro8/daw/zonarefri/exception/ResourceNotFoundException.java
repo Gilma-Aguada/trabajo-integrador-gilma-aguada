@@ -1,5 +1,5 @@
 // src/main/java/ar/edu/centro8/daw/trabajo_integrador_gilma_aguada/exception/ResourceNotFoundException.java
-package ar.edu.centro8.daw.trabajo_integrador_gilma_aguada.exception;
+package ar.edu.centro8.daw.zonarefri.exception;
 
 public class ResourceNotFoundException extends RuntimeException {
     public ResourceNotFoundException(String message) {

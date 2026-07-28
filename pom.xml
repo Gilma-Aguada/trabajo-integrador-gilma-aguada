@@ -15,9 +15,9 @@
     </parent>
 
     <groupId>ar.edu.centro8.daw</groupId>
-    <artifactId>trabajo-integrador-gilma-aguada</artifactId>
+    <artifactId>zona-refri-backend</artifactId>
     <version>1.0.0</version>
-    <name>Trabajo Integrador - Casa de Reparación</name>
+    <name>Zona Refri - Backend</name>
     <description>Sistema de gestión para casa de reparación de electrodomésticos</description>
 
     <properties>

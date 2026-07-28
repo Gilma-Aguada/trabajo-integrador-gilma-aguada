@@ -1,5 +1,5 @@
 
-package ar.edu.centro8.daw.trabajo_integrador_gilma_aguada.model;
+package ar.edu.centro8.daw.zonarefri.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;

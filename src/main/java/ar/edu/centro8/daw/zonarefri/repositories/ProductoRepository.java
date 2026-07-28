@@ -1,11 +1,13 @@
 
 
-package ar.edu.centro8.daw.trabajo_integrador_gilma_aguada.repositories;
+package ar.edu.centro8.daw.zonarefri.repositories;
 
-import ar.edu.centro8.daw.trabajo_integrador_gilma_aguada.model.Producto;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
+
+import ar.edu.centro8.daw.zonarefri.model.Producto;
+
 import java.math.BigDecimal;
 import java.util.List;
 

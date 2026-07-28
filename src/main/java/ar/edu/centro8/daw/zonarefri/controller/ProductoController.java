@@ -1,8 +1,8 @@
 
-package ar.edu.centro8.daw.trabajo_integrador_gilma_aguada.controller;
+package ar.edu.centro8.daw.zonarefri.controller;
 
-import ar.edu.centro8.daw.trabajo_integrador_gilma_aguada.model.Producto;
-import ar.edu.centro8.daw.trabajo_integrador_gilma_aguada.service.ProductoService;
+import ar.edu.centro8.daw.zonarefri.model.Producto;
+import ar.edu.centro8.daw.zonarefri.service.ProductoService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
