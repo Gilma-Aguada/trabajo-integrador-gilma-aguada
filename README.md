@@ -1,6 +1,6 @@
 # ⚡ Zona Refri — Sistema de Gestión para Electrodomésticos
 
-Bienvenido/a al repositorio oficial de **Zona Refri**, una solución backend robusta diseñada para la gestión integral de una casa de reparación, repuestos y venta de electrodomésticos (pavas eléctricas, hornos, licuadoras, refrigeración y una gran variedad de equipos del hogar).
+Bienvenido/a al repositorio oficial de **Zona Refri**, una solución backend diseñada para el servicio de reparación de electrodomésticos (pavas eléctricas, hornos, licuadoras, refrigeración y una gran variedad de equipos del hogar).
 
 ✨ **Proyecto desarrollado por Gilma Aguada.**
 
